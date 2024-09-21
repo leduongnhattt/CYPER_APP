@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d56f85e450634d72b9f88b2f48c63a74" Name="Diagram1">
+        <EntityTypeShape EntityType="CYPER_DBModel.DICHVU" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CYPER_DBModel.DONHANG" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CYPER_DBModel.KHACHHANG" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CYPER_DBModel.LOAIDICHVU" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CYPER_DBModel.NAPTIEN" Width="1.5" PointX="8.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CYPER_DBModel.NHANVIEN" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="CYPER_DBModel.PHANQUYEN" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="CYPER_DBModel.FK__DICHVU__MALOAI__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="CYPER_DBModel.FK__DONHANG__MaDichV__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="CYPER_DBModel.FK__DONHANG__MaKhach__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="CYPER_DBModel.FK__DONHANG__MaNhanV__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="CYPER_DBModel.FK__NAPTIEN__MaKhach__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="CYPER_DBModel.FK__NAPTIEN__MaNhanV__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="CYPER_DBModel.FK__NHANVIEN__MaPhan__4F7CD00D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
