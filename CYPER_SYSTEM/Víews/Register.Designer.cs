@@ -30,11 +30,11 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtDangnhap = new System.Windows.Forms.TextBox();
+            this.txtSdt = new System.Windows.Forms.TextBox();
+            this.txtMatkhau = new System.Windows.Forms.TextBox();
+            this.txtRe_Matkhau = new System.Windows.Forms.TextBox();
+            this.btnDangki = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // panel1
@@ -57,61 +57,62 @@
             // 
             // textBox1
             // 
-            this.textBox1.ForeColor = System.Drawing.Color.Gray;
-            this.textBox1.Location = new System.Drawing.Point(462, 148);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(280, 22);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "Tên đăng nhập";
+            this.txtDangnhap.ForeColor = System.Drawing.Color.Gray;
+            this.txtDangnhap.Location = new System.Drawing.Point(462, 148);
+            this.txtDangnhap.Name = "textBox1";
+            this.txtDangnhap.Size = new System.Drawing.Size(280, 22);
+            this.txtDangnhap.TabIndex = 2;
+            this.txtDangnhap.Text = "Tên đăng nhập";
             // 
             // textBox2
             // 
-            this.textBox2.ForeColor = System.Drawing.Color.Gray;
-            this.textBox2.Location = new System.Drawing.Point(462, 223);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(280, 22);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.Text = "Số điện thoại";
+            this.txtSdt.ForeColor = System.Drawing.Color.Gray;
+            this.txtSdt.Location = new System.Drawing.Point(462, 223);
+            this.txtSdt.Name = "textBox2";
+            this.txtSdt.Size = new System.Drawing.Size(280, 22);
+            this.txtSdt.TabIndex = 3;
+            this.txtSdt.Text = "Số điện thoại";
             // 
             // textBox3
             // 
-            this.textBox3.ForeColor = System.Drawing.Color.Gray;
-            this.textBox3.Location = new System.Drawing.Point(462, 296);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(280, 22);
-            this.textBox3.TabIndex = 4;
-            this.textBox3.Text = "Mật khẩu";
+            this.txtMatkhau.ForeColor = System.Drawing.Color.Gray;
+            this.txtMatkhau.Location = new System.Drawing.Point(462, 296);
+            this.txtMatkhau.Name = "textBox3";
+            this.txtMatkhau.Size = new System.Drawing.Size(280, 22);
+            this.txtMatkhau.TabIndex = 4;
+            this.txtMatkhau.Text = "Mật khẩu";
             // 
             // textBox4
             // 
-            this.textBox4.ForeColor = System.Drawing.Color.Gray;
-            this.textBox4.Location = new System.Drawing.Point(462, 375);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(280, 22);
-            this.textBox4.TabIndex = 5;
-            this.textBox4.Text = "Nhập lại mật khẩu";
+            this.txtRe_Matkhau.ForeColor = System.Drawing.Color.Gray;
+            this.txtRe_Matkhau.Location = new System.Drawing.Point(462, 375);
+            this.txtRe_Matkhau.Name = "textBox4";
+            this.txtRe_Matkhau.Size = new System.Drawing.Size(280, 22);
+            this.txtRe_Matkhau.TabIndex = 5;
+            this.txtRe_Matkhau.Text = "Nhập lại mật khẩu";
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(520, 438);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 42);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Đăng kí";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnDangki.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnDangki.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.btnDangki.Location = new System.Drawing.Point(520, 438);
+            this.btnDangki.Name = "button1";
+            this.btnDangki.Size = new System.Drawing.Size(130, 42);
+            this.btnDangki.TabIndex = 4;
+            this.btnDangki.Text = "Đăng kí";
+            this.btnDangki.UseVisualStyleBackColor = false;
+            this.btnDangki.Click += new System.EventHandler(this.button1_Click);
             // 
             // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(924, 560);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnDangki);
+            this.Controls.Add(this.txtRe_Matkhau);
+            this.Controls.Add(this.txtMatkhau);
+            this.Controls.Add(this.txtSdt);
+            this.Controls.Add(this.txtDangnhap);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Name = "Register";
@@ -125,10 +126,10 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtDangnhap;
+        private System.Windows.Forms.TextBox txtSdt;
+        private System.Windows.Forms.TextBox txtMatkhau;
+        private System.Windows.Forms.TextBox txtRe_Matkhau;
+        private System.Windows.Forms.Button btnDangki;
     }
 }

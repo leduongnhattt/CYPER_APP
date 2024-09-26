@@ -31,11 +31,11 @@
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtDangnhap = new System.Windows.Forms.TextBox();
+            this.txtMatkhau = new System.Windows.Forms.TextBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnDangnhap = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
@@ -60,32 +60,33 @@
             // 
             // textBox1
             // 
-            this.textBox1.ForeColor = System.Drawing.Color.Gray;
-            this.textBox1.Location = new System.Drawing.Point(462, 148);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(280, 22);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "Tên đăng nhập";
+            this.txtDangnhap.ForeColor = System.Drawing.Color.Gray;
+            this.txtDangnhap.Location = new System.Drawing.Point(462, 148);
+            this.txtDangnhap.Name = "textBox1";
+            this.txtDangnhap.Size = new System.Drawing.Size(280, 22);
+            this.txtDangnhap.TabIndex = 2;
+            this.txtDangnhap.Text = "Tên đăng nhập";
             // 
             // textBox2
             // 
-            this.textBox2.ForeColor = System.Drawing.Color.Gray;
-            this.textBox2.Location = new System.Drawing.Point(462, 248);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(280, 22);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.Text = "Mật khẩu";
+            this.txtMatkhau.ForeColor = System.Drawing.Color.Gray;
+            this.txtMatkhau.Location = new System.Drawing.Point(462, 248);
+            this.txtMatkhau.Name = "textBox2";
+            this.txtMatkhau.Size = new System.Drawing.Size(280, 22);
+            this.txtMatkhau.TabIndex = 3;
+            this.txtMatkhau.Text = "Mật khẩu";
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(533, 324);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 42);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Đăng nhập";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnDangnhap.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnDangnhap.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.btnDangnhap.Location = new System.Drawing.Point(514, 320);
+            this.btnDangnhap.Name = "button1";
+            this.btnDangnhap.Size = new System.Drawing.Size(149, 42);
+            this.btnDangnhap.TabIndex = 4;
+            this.btnDangnhap.Text = "Đăng nhập";
+            this.btnDangnhap.UseVisualStyleBackColor = false;
+            this.btnDangnhap.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -105,6 +106,7 @@
             this.linkLabel1.TabIndex = 6;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Đăng kí";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // Login
             // 
@@ -113,9 +115,9 @@
             this.ClientSize = new System.Drawing.Size(924, 560);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnDangnhap);
+            this.Controls.Add(this.txtMatkhau);
+            this.Controls.Add(this.txtDangnhap);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Name = "Login";
@@ -129,11 +131,11 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtDangnhap;
+        private System.Windows.Forms.TextBox txtMatkhau;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.ToolTip toolTip2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnDangnhap;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.LinkLabel linkLabel1;
     }

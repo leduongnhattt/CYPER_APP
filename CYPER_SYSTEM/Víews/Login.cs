@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CYPER_SYSTEM.Database;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,46 +16,45 @@ namespace CYPER_SYSTEM.Víews
         public Login()
         {
             InitializeComponent();
-            this.textBox1.Enter += (sender, e) =>
-            {
-                if (this.textBox1.Text == "Tên đăng nhập")
-                {
-                    this.textBox1.Text = "";
-                    this.textBox1.ForeColor = System.Drawing.Color.Black;
-                }
-            };
-
-            this.textBox1.Leave += (sender, e) =>
-            {
-                if (string.IsNullOrWhiteSpace(this.textBox1.Text))
-                {
-                    this.textBox1.Text = "Tên đăng nhập";
-                    this.textBox1.ForeColor = System.Drawing.Color.Gray;
-                }
-            };
-
-            // Thêm sự kiện cho textBox2
-            this.textBox2.Enter += (sender, e) =>
-            {
-                if (this.textBox2.Text == "Mật khẩu")
-                {
-                    this.textBox2.Text = "";
-                    this.textBox2.ForeColor = System.Drawing.Color.Black;
-                    this.textBox2.PasswordChar = '*'; // Ẩn mật khẩu
-                }
-            };
-
-            this.textBox2.Leave += (sender, e) =>
-            {
-                if (string.IsNullOrWhiteSpace(this.textBox2.Text))
-                {
-                    this.textBox2.Text = "Mật khẩu";
-                    this.textBox2.ForeColor = System.Drawing.Color.Gray;
-                    this.textBox2.PasswordChar = '\0'; // Không ẩn mật khẩu khi gợi ý hiển thị
-                }
-            };
+            this.StartPosition = FormStartPosition.CenterScreen;
+            new PlaceHolder(txtDangnhap, "Tên đăng nhập");
+            new PlaceHolder(txtMatkhau, "Mật khẩu");
+           
         }
 
-  
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Register signUpForm = new Register();
+            signUpForm.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+   
+
+            using (var context = new CYPER_DBEntities())
+            {
+                string tenDangnhap = txtDangnhap.Text.Trim();
+                string matKhau = txtMatkhau.Text.Trim();
+
+ 
+                var student = context.KHACHHANGs
+                    .AsEnumerable() 
+                    .FirstOrDefault(s => s.TenDangNhap == tenDangnhap && s.MatKhau.ToString() == matKhau);
+
+                if (student != null)
+                {
+                    MessageBox.Show("Đăng nhập thành công");
+                    new Home().Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Đăng nhập không thành công");
+                }
+            }
+
+        }
     }
 }

@@ -196,20 +196,21 @@
     <Compile Include="Database\PHANQUYEN.cs">
       <DependentUpon>CYPER_Models.tt</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Víews\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Víews\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
     <Compile Include="Víews\Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Víews\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Víews\PlaceHolder.cs" />
     <Compile Include="Víews\Register.cs">
       <SubType>Form</SubType>
     </Compile>
