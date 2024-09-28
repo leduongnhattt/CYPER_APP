@@ -88,3 +88,4 @@ D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\FontAwesome.Sharp.dll
 D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\Microsoft.Bcl.TimeProvider.dll
 D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\Microsoft.Bcl.TimeProvider.xml
 D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Víews.Home.resources
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Víews.DichVu.resources

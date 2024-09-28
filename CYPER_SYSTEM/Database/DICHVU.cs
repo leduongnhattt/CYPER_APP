@@ -12,6 +12,7 @@ namespace CYPER_SYSTEM.Database
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations.Schema;
+    using System.Drawing;
 
     public partial class DICHVU
     {
@@ -26,7 +27,9 @@ namespace CYPER_SYSTEM.Database
         public Nullable<decimal> DonGia { get; set; }
         public string HinhAnh { get; set; }
         public Nullable<int> MALOAI { get; set; }
-    
+        [NotMapped] // Đánh dấu rằng thuộc tính này không được lưu trong cơ sở dữ liệu
+        public Image HinhAnhImage { get; set; }
+
         public virtual LOAIDICHVU LOAIDICHVU { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<DONHANG> DONHANGs { get; set; }
