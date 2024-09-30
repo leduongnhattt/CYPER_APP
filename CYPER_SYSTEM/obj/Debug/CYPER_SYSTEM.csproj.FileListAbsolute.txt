@@ -89,3 +89,17 @@ D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\Microsoft.Bcl.TimeProvider.dll
 D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\Microsoft.Bcl.TimeProvider.xml
 D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Víews.Home.resources
 D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Víews.DichVu.resources
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Víews.QuanityForm.resources
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Víews.TongQuan.resources
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Víews.KhachHang.resources
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\Bunifu.Licensing.dll
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\Bunifu.UI.WinForms.dll
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\Newtonsoft.Json.dll
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\RestSharp.dll
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\System.CodeDom.dll
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\Bunifu.UI.WinForms.xml
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\Newtonsoft.Json.xml
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\RestSharp.xml
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\System.CodeDom.xml
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Víews.EditKhachHang.resources
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Víews.AddKhachHang.resources

@@ -3,16 +3,124 @@
   "WorkspaceRootPath": "D:\\ASP_Net\\CYPER_SYSTEM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|d:\\asp_net\\cyper_system\\cyper_system\\v\u00EDews\\dichvu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\dichvu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|d:\\asp_net\\cyper_system\\cyper_system\\v\u00EDews\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|d:\\asp_net\\cyper_system\\cyper_system\\v\u00EDews\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|d:\\asp_net\\cyper_system\\cyper_system\\v\u00EDews\\addkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\addkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|d:\\asp_net\\cyper_system\\cyper_system\\validation\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\validation\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|d:\\asp_net\\cyper_system\\cyper_system\\v\u00EDews\\addkhachhang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\addkhachhang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|d:\\asp_net\\cyper_system\\cyper_system\\v\u00EDews\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|d:\\asp_net\\cyper_system\\cyper_system\\v\u00EDews\\addkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\addkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|d:\\asp_net\\cyper_system\\cyper_system\\v\u00EDews\\khachhang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\khachhang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|d:\\asp_net\\cyper_system\\cyper_system\\v\u00EDews\\editkhachhang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\editkhachhang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|d:\\asp_net\\cyper_system\\cyper_system\\v\u00EDews\\editkhachhang.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\editkhachhang.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\database\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\database\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|d:\\asp_net\\cyper_system\\cyper_system\\v\u00EDews\\editkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\editkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|d:\\asp_net\\cyper_system\\cyper_system\\v\u00EDews\\editkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\editkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\session\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\session\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\database\\naptien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\database\\naptien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\database\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\database\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\tongquan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\tongquan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\tongquan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\tongquan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\tongquan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\tongquan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\naptien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\naptien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\naptien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\naptien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,20 +131,16 @@
       "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\database\\dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\database\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\database\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\quanityform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\quanityform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|D:\\ASP_Net\\CYPER_SYSTEM\\cyper_system\\v\u00EDews\\quanityform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F28B2A-B1A8-4814-B3FB-978C3C1C74AD}|CYPER_SYSTEM\\CYPER_SYSTEM.csproj|solutionrelative:cyper_system\\v\u00EDews\\quanityform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,36 +150,274 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DichVu.Designer.cs",
-              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\DichVu.Designer.cs",
-              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\DichVu.Designer.cs",
-              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\DichVu.Designer.cs",
-              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\DichVu.Designer.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAUwFcAAABlAAAA",
+              "DocumentIndex": 4,
+              "Title": "ValidationHelper.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Validation\\ValidationHelper.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\Validation\\ValidationHelper.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Validation\\ValidationHelper.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\Validation\\ValidationHelper.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T19:07:43.652Z",
+              "WhenOpened": "2024-09-30T18:33:40.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DichVu.cs",
-              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\DichVu.cs",
-              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\DichVu.cs",
-              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\DichVu.cs",
-              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\DichVu.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAUwFQAAAAAAAAA",
+              "Title": "AddKhachHang.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\AddKhachHang.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\AddKhachHang.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\AddKhachHang.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\AddKhachHang.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T19:07:25.123Z"
+              "WhenOpened": "2024-09-30T18:17:46.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Register.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\Register.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Register.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\Register.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T03:31:45.245Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "KhachHang.cs [Design]",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\KhachHang.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\KhachHang.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\KhachHang.cs [Design]",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\KhachHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T15:19:08.519Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\KhachHang.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\KhachHang.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\KhachHang.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\KhachHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T15:46:25.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddKhachHang.Designer.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\AddKhachHang.Designer.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\AddKhachHang.Designer.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\AddKhachHang.Designer.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\AddKhachHang.Designer.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAIwA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T18:12:38.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.Designer.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Register.Designer.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\Register.Designer.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Register.Designer.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\Register.Designer.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T15:57:42.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Register.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\Register.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Register.cs [Design]",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T03:31:42.897Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddKhachHang.cs [Design]",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\AddKhachHang.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\AddKhachHang.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\AddKhachHang.cs [Design]",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\AddKhachHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T18:12:33.983Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "KhachHang.Designer.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\KhachHang.Designer.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\KhachHang.Designer.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\KhachHang.Designer.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\KhachHang.Designer.cs",
+              "ViewState": "AQIAAK0AAAAAAAAAAAAIwLcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T15:46:57.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditKhachHang.resx",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\EditKhachHang.resx",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\EditKhachHang.resx",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\EditKhachHang.resx",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\EditKhachHang.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-09-30T18:15:23.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditKhachHang.Designer.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\EditKhachHang.Designer.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\EditKhachHang.Designer.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\EditKhachHang.Designer.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\EditKhachHang.Designer.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAIwGEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T17:47:15.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "KHACHHANG.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Database\\KHACHHANG.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\Database\\KHACHHANG.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Database\\KHACHHANG.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\Database\\KHACHHANG.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAIwBIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T15:23:47.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditKhachHang.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\EditKhachHang.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\EditKhachHang.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\EditKhachHang.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\EditKhachHang.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T17:47:09.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EditKhachHang.cs [Design]",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\EditKhachHang.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\EditKhachHang.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\EditKhachHang.cs [Design]",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\EditKhachHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T17:46:48.941Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Login.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\Login.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Login.cs [Design]",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T03:05:56.556Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Login.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\Login.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Login.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\Login.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAACEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T03:06:05.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Session\\UserSession.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\Session\\UserSession.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Session\\UserSession.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\Session\\UserSession.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T03:05:34.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NAPTIEN.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Database\\NAPTIEN.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\Database\\NAPTIEN.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Database\\NAPTIEN.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\Database\\NAPTIEN.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T15:24:08.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NHANVIEN.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Database\\NHANVIEN.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\Database\\NHANVIEN.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Database\\NHANVIEN.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\Database\\NHANVIEN.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T15:24:14.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Home.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\Home.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Home.cs [Design]",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:26:22.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "DichVu.cs [Design]",
               "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\DichVu.cs",
               "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\DichVu.cs",
@@ -86,74 +428,156 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.Designer.cs",
-              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Register.Designer.cs",
-              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\Register.Designer.cs",
-              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Register.Designer.cs",
-              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\Register.Designer.cs",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAAAHEAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T06:56:28.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DICHVU.cs",
-              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Database\\DICHVU.cs",
-              "RelativeDocumentMoniker": "CYPER_SYSTEM\\Database\\DICHVU.cs",
-              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Database\\DICHVU.cs",
-              "RelativeToolTip": "CYPER_SYSTEM\\Database\\DICHVU.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T19:17:33.013Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Program.cs",
-              "RelativeDocumentMoniker": "CYPER_SYSTEM\\Program.cs",
-              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Program.cs",
-              "RelativeToolTip": "CYPER_SYSTEM\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T06:45:51.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Home.Designer.cs",
-              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Home.Designer.cs",
-              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\Home.Designer.cs",
-              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Home.Designer.cs",
-              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\Home.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIBAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T06:17:37.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 20,
               "Title": "Home.cs",
               "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Home.cs",
               "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\Home.cs",
               "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Home.cs",
               "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\Home.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAApwGcAAAANAAAA",
+              "ViewState": "AQIAAJkAAAAAAAAAAAD4v6cAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T14:44:53.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Home.cs [Design]",
-              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Home.cs",
-              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\Home.cs",
-              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Home.cs [Design]",
-              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\Home.cs [Design]",
+              "DocumentIndex": 23,
+              "Title": "TongQuan.cs [Design]",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\TongQuan.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\TongQuan.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\TongQuan.cs [Design]",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\TongQuan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T13:26:22.624Z"
+              "WhenOpened": "2024-09-30T13:37:13.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Home.Designer.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Home.Designer.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\Home.Designer.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\Home.Designer.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\Home.Designer.cs",
+              "ViewState": "AQIAAEIBAAAAAAAAAAAIwEwBAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T06:17:37.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Program.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\Program.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Program.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T06:45:51.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TongQuan.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\TongQuan.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\TongQuan.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\TongQuan.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\TongQuan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T13:44:36.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TongQuan.Designer.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\TongQuan.Designer.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\TongQuan.Designer.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\TongQuan.Designer.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\TongQuan.Designer.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAIwC4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T14:11:44.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NapTien.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\NapTien.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\NapTien.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\NapTien.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\NapTien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T13:44:03.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "NapTien.cs [Design]",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\NapTien.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\NapTien.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\NapTien.cs [Design]",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\NapTien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T13:42:36.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DichVu.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\DichVu.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\DichVu.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\DichVu.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\DichVu.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwBAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T19:07:25.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DICHVU.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Database\\DICHVU.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\Database\\DICHVU.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Database\\DICHVU.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\Database\\DICHVU.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAIwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T02:04:06.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DONHANG.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Database\\DONHANG.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\Database\\DONHANG.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\Database\\DONHANG.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\Database\\DONHANG.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAIwBsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T02:58:43.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "QuanityForm.cs [Design]",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\QuanityForm.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\QuanityForm.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\QuanityForm.cs [Design]",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\QuanityForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T02:27:48.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "QuanityForm.cs",
+              "DocumentMoniker": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\QuanityForm.cs",
+              "RelativeDocumentMoniker": "CYPER_SYSTEM\\V\u00EDews\\QuanityForm.cs",
+              "ToolTip": "D:\\ASP_Net\\CYPER_SYSTEM\\CYPER_SYSTEM\\V\u00EDews\\QuanityForm.cs",
+              "RelativeToolTip": "CYPER_SYSTEM\\V\u00EDews\\QuanityForm.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAD4vxcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T02:29:48.855Z"
             }
           ]
         }

@@ -1,4 +1,5 @@
 ﻿using CYPER_SYSTEM.Database;
+using CYPER_SYSTEM.Session;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -39,12 +40,14 @@ namespace CYPER_SYSTEM.Víews
                 string matKhau = txtMatkhau.Text.Trim();
 
  
-                var student = context.KHACHHANGs
+                var user = context.KHACHHANGs
                     .AsEnumerable() 
                     .FirstOrDefault(s => s.TenDangNhap == tenDangnhap && s.MatKhau.ToString() == matKhau);
 
-                if (student != null)
+                if (user != null)
                 {
+                    UserSession.CurrentUserId = user.MaKhachHang; 
+                    UserSession.CurrentUserName = user.TenDangNhap;
                     MessageBox.Show("Đăng nhập thành công");
                     new Home().Show();
                     this.Hide();

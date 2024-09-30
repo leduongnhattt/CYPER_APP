@@ -39,17 +39,17 @@
             this.btnTongquan = new System.Windows.Forms.Button();
             this.panelDichvu = new System.Windows.Forms.Panel();
             this.btnDichvu = new System.Windows.Forms.Button();
-            this.sidebarTransititon = new System.Windows.Forms.Timer(this.components);
             this.panelKhachhang = new System.Windows.Forms.Panel();
             this.btnKhachhang = new System.Windows.Forms.Button();
             this.panelThunhap = new System.Windows.Forms.Panel();
-            this.btnThunhap = new System.Windows.Forms.Button();
-            this.btnThoat = new System.Windows.Forms.Button();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.button16 = new System.Windows.Forms.Button();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.btnPhanhoi = new System.Windows.Forms.Button();
+            this.btnNaptien = new System.Windows.Forms.Button();
             this.panelPhanhoi = new System.Windows.Forms.Panel();
+            this.btnPhanhoi = new System.Windows.Forms.Button();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.btnThoat = new System.Windows.Forms.Button();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.button16 = new System.Windows.Forms.Button();
+            this.sidebarTransititon = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnHam)).BeginInit();
             this.sidebar.SuspendLayout();
@@ -57,9 +57,9 @@
             this.panelDichvu.SuspendLayout();
             this.panelKhachhang.SuspendLayout();
             this.panelThunhap.SuspendLayout();
+            this.panelPhanhoi.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel15.SuspendLayout();
-            this.panelPhanhoi.SuspendLayout();
             this.SuspendLayout();
             // 
             // notifyIcon1
@@ -76,7 +76,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(0, 0, 0, 30);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1355, 61);
+            this.panel1.Size = new System.Drawing.Size(1090, 61);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -115,7 +115,7 @@
             this.sidebar.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.sidebar.Location = new System.Drawing.Point(0, 61);
             this.sidebar.Name = "sidebar";
-            this.sidebar.Size = new System.Drawing.Size(256, 562);
+            this.sidebar.Size = new System.Drawing.Size(256, 520);
             this.sidebar.TabIndex = 1;
             // 
             // panelTongquan
@@ -168,11 +168,6 @@
             this.btnDichvu.UseVisualStyleBackColor = false;
             this.btnDichvu.Click += new System.EventHandler(this.btnDichvu_Click);
             // 
-            // sidebarTransititon
-            // 
-            this.sidebarTransititon.Interval = 10;
-            this.sidebarTransititon.Tick += new System.EventHandler(this.sidebarTransititon_Tick);
-            // 
             // panelKhachhang
             // 
             this.panelKhachhang.Controls.Add(this.btnKhachhang);
@@ -196,30 +191,65 @@
             this.btnKhachhang.TabIndex = 2;
             this.btnKhachhang.Text = "Khách hàng";
             this.btnKhachhang.UseVisualStyleBackColor = false;
+            this.btnKhachhang.Click += new System.EventHandler(this.btnKhachhang_Click);
             // 
             // panelThunhap
             // 
-            this.panelThunhap.Controls.Add(this.btnThunhap);
+            this.panelThunhap.Controls.Add(this.btnNaptien);
             this.panelThunhap.Location = new System.Drawing.Point(0, 249);
             this.panelThunhap.Margin = new System.Windows.Forms.Padding(0, 0, 0, 30);
             this.panelThunhap.Name = "panelThunhap";
             this.panelThunhap.Size = new System.Drawing.Size(260, 53);
             this.panelThunhap.TabIndex = 17;
             // 
-            // btnThunhap
+            // btnNaptien
             // 
-            this.btnThunhap.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnThunhap.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThunhap.Image = ((System.Drawing.Image)(resources.GetObject("btnThunhap.Image")));
-            this.btnThunhap.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThunhap.Location = new System.Drawing.Point(-11, -23);
-            this.btnThunhap.Margin = new System.Windows.Forms.Padding(0, 0, 0, 30);
-            this.btnThunhap.Name = "btnThunhap";
-            this.btnThunhap.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.btnThunhap.Size = new System.Drawing.Size(288, 104);
-            this.btnThunhap.TabIndex = 2;
-            this.btnThunhap.Text = "Thu nhập";
-            this.btnThunhap.UseVisualStyleBackColor = false;
+            this.btnNaptien.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnNaptien.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNaptien.Image = ((System.Drawing.Image)(resources.GetObject("btnNaptien.Image")));
+            this.btnNaptien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNaptien.Location = new System.Drawing.Point(-11, -23);
+            this.btnNaptien.Margin = new System.Windows.Forms.Padding(0, 0, 0, 30);
+            this.btnNaptien.Name = "btnNaptien";
+            this.btnNaptien.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.btnNaptien.Size = new System.Drawing.Size(288, 104);
+            this.btnNaptien.TabIndex = 2;
+            this.btnNaptien.Text = "Nạp tiền";
+            this.btnNaptien.UseVisualStyleBackColor = false;
+            this.btnNaptien.Click += new System.EventHandler(this.btnNaptien_Click);
+            // 
+            // panelPhanhoi
+            // 
+            this.panelPhanhoi.Controls.Add(this.btnPhanhoi);
+            this.panelPhanhoi.Location = new System.Drawing.Point(0, 332);
+            this.panelPhanhoi.Margin = new System.Windows.Forms.Padding(0, 0, 0, 30);
+            this.panelPhanhoi.Name = "panelPhanhoi";
+            this.panelPhanhoi.Size = new System.Drawing.Size(260, 53);
+            this.panelPhanhoi.TabIndex = 19;
+            // 
+            // btnPhanhoi
+            // 
+            this.btnPhanhoi.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnPhanhoi.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPhanhoi.Image = ((System.Drawing.Image)(resources.GetObject("btnPhanhoi.Image")));
+            this.btnPhanhoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPhanhoi.Location = new System.Drawing.Point(-11, -23);
+            this.btnPhanhoi.Margin = new System.Windows.Forms.Padding(0, 0, 0, 30);
+            this.btnPhanhoi.Name = "btnPhanhoi";
+            this.btnPhanhoi.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.btnPhanhoi.Size = new System.Drawing.Size(288, 104);
+            this.btnPhanhoi.TabIndex = 2;
+            this.btnPhanhoi.Text = "Phản hồi";
+            this.btnPhanhoi.UseVisualStyleBackColor = false;
+            // 
+            // panel12
+            // 
+            this.panel12.Controls.Add(this.btnThoat);
+            this.panel12.Location = new System.Drawing.Point(0, 415);
+            this.panel12.Margin = new System.Windows.Forms.Padding(0, 0, 0, 30);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(260, 53);
+            this.panel12.TabIndex = 21;
             // 
             // btnThoat
             // 
@@ -237,14 +267,14 @@
             this.btnThoat.UseVisualStyleBackColor = false;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click_1);
             // 
-            // panel12
+            // panel15
             // 
-            this.panel12.Controls.Add(this.btnThoat);
-            this.panel12.Location = new System.Drawing.Point(0, 415);
-            this.panel12.Margin = new System.Windows.Forms.Padding(0, 0, 0, 30);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(260, 53);
-            this.panel12.TabIndex = 21;
+            this.panel15.Controls.Add(this.button16);
+            this.panel15.Location = new System.Drawing.Point(260, 0);
+            this.panel15.Margin = new System.Windows.Forms.Padding(0, 0, 0, 30);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(260, 53);
+            this.panel15.TabIndex = 20;
             // 
             // button16
             // 
@@ -261,44 +291,16 @@
             this.button16.Text = "Dịch vụ";
             this.button16.UseVisualStyleBackColor = false;
             // 
-            // panel15
+            // sidebarTransititon
             // 
-            this.panel15.Controls.Add(this.button16);
-            this.panel15.Location = new System.Drawing.Point(260, 0);
-            this.panel15.Margin = new System.Windows.Forms.Padding(0, 0, 0, 30);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(260, 53);
-            this.panel15.TabIndex = 20;
-            // 
-            // btnPhanhoi
-            // 
-            this.btnPhanhoi.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnPhanhoi.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPhanhoi.Image = ((System.Drawing.Image)(resources.GetObject("btnPhanhoi.Image")));
-            this.btnPhanhoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPhanhoi.Location = new System.Drawing.Point(-11, -23);
-            this.btnPhanhoi.Margin = new System.Windows.Forms.Padding(0, 0, 0, 30);
-            this.btnPhanhoi.Name = "btnPhanhoi";
-            this.btnPhanhoi.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.btnPhanhoi.Size = new System.Drawing.Size(288, 104);
-            this.btnPhanhoi.TabIndex = 2;
-            this.btnPhanhoi.Text = "Phản hồi";
-            this.btnPhanhoi.UseVisualStyleBackColor = false;
-            // 
-            // panelPhanhoi
-            // 
-            this.panelPhanhoi.Controls.Add(this.btnPhanhoi);
-            this.panelPhanhoi.Location = new System.Drawing.Point(0, 332);
-            this.panelPhanhoi.Margin = new System.Windows.Forms.Padding(0, 0, 0, 30);
-            this.panelPhanhoi.Name = "panelPhanhoi";
-            this.panelPhanhoi.Size = new System.Drawing.Size(260, 53);
-            this.panelPhanhoi.TabIndex = 19;
+            this.sidebarTransititon.Interval = 10;
+            this.sidebarTransititon.Tick += new System.EventHandler(this.sidebarTransititon_Tick);
             // 
             // Home
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1355, 623);
+            this.ClientSize = new System.Drawing.Size(1090, 581);
             this.Controls.Add(this.sidebar);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.Black;
@@ -306,6 +308,7 @@
             this.IsMdiContainer = true;
             this.Name = "Home";
             this.Text = "Home";
+            this.Load += new System.EventHandler(this.Home_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnHam)).EndInit();
@@ -314,9 +317,9 @@
             this.panelDichvu.ResumeLayout(false);
             this.panelKhachhang.ResumeLayout(false);
             this.panelThunhap.ResumeLayout(false);
+            this.panelPhanhoi.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
-            this.panelPhanhoi.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -335,7 +338,7 @@
         private System.Windows.Forms.Panel panelKhachhang;
         private System.Windows.Forms.Button btnKhachhang;
         private System.Windows.Forms.Panel panelThunhap;
-        private System.Windows.Forms.Button btnThunhap;
+        private System.Windows.Forms.Button btnNaptien;
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Button button16;

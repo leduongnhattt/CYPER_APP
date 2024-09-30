@@ -8,11 +8,17 @@ using System.Text;
 using FontAwesome.Sharp;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CYPER_SYSTEM.Database;
 
 namespace CYPER_SYSTEM.Víews
 {
+    
+
     public partial class Home : Form
     {
+        KhachHang khachHang;
+        TongQuan tongQuan;
+        DichVu DichVu;
         public Home()
         {
             InitializeComponent();
@@ -30,8 +36,8 @@ namespace CYPER_SYSTEM.Víews
             btnPhanhoi.MouseLeave += sidebarButton_MouseLeave;
             btnThoat.MouseEnter += sidebarButton_MouseEnter;
             btnThoat.MouseLeave += sidebarButton_MouseLeave;
-            btnThunhap.MouseEnter += sidebarButton_MouseEnter;
-            btnThunhap.MouseLeave += sidebarButton_MouseLeave;
+            btnNaptien.MouseEnter += sidebarButton_MouseEnter;
+            btnNaptien.MouseLeave += sidebarButton_MouseLeave;
         }
 
         private void sidebarButton_MouseEnter(object sender, EventArgs e)
@@ -50,6 +56,22 @@ namespace CYPER_SYSTEM.Víews
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (tongQuan == null)
+            {
+                tongQuan = new TongQuan();
+                tongQuan.FormClosed += TongQuan_FormClosed;
+                tongQuan.MdiParent = this;
+                tongQuan.Show();
+                tongQuan.Dock = DockStyle.Fill;
+            }
+            else
+            {
+                tongQuan.Activate();
+            }
+        }
+        private void TongQuan_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            tongQuan = null;
 
         }
         bool sidebarExpand = true;
@@ -108,7 +130,53 @@ namespace CYPER_SYSTEM.Víews
 
         private void btnDichvu_Click(object sender, EventArgs e)
         {
-            new DichVu().Show();
+            if (DichVu == null)
+            {
+                DichVu = new DichVu();
+                DichVu.FormClosed += DichVu_FormClosed;
+                DichVu.MdiParent = this;
+                DichVu.Show();
+                DichVu.Dock = DockStyle.Fill;
+            }
+            else
+            {
+                DichVu.Activate();
+            }
+        }
+        private void DichVu_FormClosed(object sender, FormClosedEventArgs args)
+        {
+            DichVu = null;
+        }
+
+        private void btnNaptien_Click(object sender, EventArgs e)
+        {
+            new NapTien().Show();
+            this.Hide();
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnKhachhang_Click(object sender, EventArgs e)
+        {
+            if (khachHang == null)
+            {
+                khachHang = new KhachHang();
+                khachHang.FormClosed += DichVu_FormClosed;
+                khachHang.MdiParent = this;
+                khachHang.Show();
+                khachHang.Dock = DockStyle.Fill;
+            }
+            else
+            {
+                khachHang.Activate();
+            }
+        }
+        private void KhachHang_FormClosed(object sender, FormClosedEventArgs ags)
+        {
+            khachHang = null;
         }
     }
 }
