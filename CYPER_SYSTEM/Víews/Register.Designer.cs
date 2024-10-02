@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Register));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.txtDangnhap = new System.Windows.Forms.TextBox();
@@ -40,6 +41,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel1.Location = new System.Drawing.Point(1, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(272, 619);
@@ -55,48 +58,48 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Đăng kí";
             // 
-            // textBox1
+            // txtDangnhap
             // 
             this.txtDangnhap.ForeColor = System.Drawing.Color.Gray;
             this.txtDangnhap.Location = new System.Drawing.Point(462, 148);
-            this.txtDangnhap.Name = "textBox1";
+            this.txtDangnhap.Name = "txtDangnhap";
             this.txtDangnhap.Size = new System.Drawing.Size(280, 22);
             this.txtDangnhap.TabIndex = 2;
             this.txtDangnhap.Text = "Tên đăng nhập";
             // 
-            // textBox2
+            // txtSdt
             // 
             this.txtSdt.ForeColor = System.Drawing.Color.Gray;
             this.txtSdt.Location = new System.Drawing.Point(462, 223);
-            this.txtSdt.Name = "textBox2";
+            this.txtSdt.Name = "txtSdt";
             this.txtSdt.Size = new System.Drawing.Size(280, 22);
             this.txtSdt.TabIndex = 3;
             this.txtSdt.Text = "Số điện thoại";
             // 
-            // textBox3
+            // txtMatkhau
             // 
             this.txtMatkhau.ForeColor = System.Drawing.Color.Gray;
             this.txtMatkhau.Location = new System.Drawing.Point(462, 296);
-            this.txtMatkhau.Name = "textBox3";
+            this.txtMatkhau.Name = "txtMatkhau";
             this.txtMatkhau.Size = new System.Drawing.Size(280, 22);
             this.txtMatkhau.TabIndex = 4;
             this.txtMatkhau.Text = "Mật khẩu";
             // 
-            // textBox4
+            // txtRe_Matkhau
             // 
             this.txtRe_Matkhau.ForeColor = System.Drawing.Color.Gray;
             this.txtRe_Matkhau.Location = new System.Drawing.Point(462, 375);
-            this.txtRe_Matkhau.Name = "textBox4";
+            this.txtRe_Matkhau.Name = "txtRe_Matkhau";
             this.txtRe_Matkhau.Size = new System.Drawing.Size(280, 22);
             this.txtRe_Matkhau.TabIndex = 5;
             this.txtRe_Matkhau.Text = "Nhập lại mật khẩu";
             // 
-            // button1
+            // btnDangki
             // 
             this.btnDangki.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnDangki.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnDangki.Location = new System.Drawing.Point(520, 438);
-            this.btnDangki.Name = "button1";
+            this.btnDangki.Name = "btnDangki";
             this.btnDangki.Size = new System.Drawing.Size(130, 42);
             this.btnDangki.TabIndex = 4;
             this.btnDangki.Text = "Đăng kí";

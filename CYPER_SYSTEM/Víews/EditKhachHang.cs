@@ -1,4 +1,5 @@
 ﻿using CYPER_SYSTEM.Database;
+using CYPER_SYSTEM.Validation;
 using System;
 using System.Linq;
 using System.Windows.Forms;
@@ -19,20 +20,35 @@ namespace CYPER_SYSTEM.Víews
 
         private void btnLuu_Click(object sender, EventArgs e)
         {
+            var newTenDangNhap = txtTenDangNhap.Text.Trim();
+            var newSoDienThoai = txtSoDienThoai.Text.Trim();
+
+            if (!ValidationHelper.ValidateInput(newTenDangNhap, newSoDienThoai))
+            {
+                return; 
+            }
+
             using (var context = new CYPER_DBEntities())
             {
+                if (ValidationHelper.CheckUserExists(context, newTenDangNhap, newSoDienThoai))
+                {
+                    MessageBox.Show("Tên đăng nhập hoặc số điện thoại đã tồn tại!");
+                    return;
+                }
+
                 var khachHang = context.KHACHHANGs.FirstOrDefault(kh => kh.TenDangNhap == tenDangNhap);
                 if (khachHang != null)
                 {
-                    khachHang.TenDangNhap = txtTenDangNhap.Text.Trim();
-                    khachHang.SDT = txtSoDienThoai.Text.Trim();
+                    khachHang.TenDangNhap = newTenDangNhap;
+                    khachHang.SDT = newSoDienThoai;
                     context.SaveChanges();
                     MessageBox.Show("Cập nhật thành công!");
+                    this.DialogResult = DialogResult.OK; 
                     this.Close();
                 }
                 else
                 {
-                    MessageBox.Show("Bạn chưa chọn khách hàng cần chỉnh sửa.");
+                    MessageBox.Show("Không tìm thấy khách hàng cần chỉnh sửa.");
                 }
             }
         }

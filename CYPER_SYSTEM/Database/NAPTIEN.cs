@@ -11,15 +11,14 @@ namespace CYPER_SYSTEM.Database
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations.Schema;
-
+    
     public partial class NAPTIEN
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int MaNapTien { get; set; }
         public Nullable<int> MaKhachHang { get; set; }
         public Nullable<decimal> SoTien { get; set; }
         public Nullable<int> MaNhanVien { get; set; }
+        public Nullable<System.DateTime> NgayNapTien { get; set; }
     
         public virtual KHACHHANG KHACHHANG { get; set; }
         public virtual NHANVIEN NHANVIEN { get; set; }

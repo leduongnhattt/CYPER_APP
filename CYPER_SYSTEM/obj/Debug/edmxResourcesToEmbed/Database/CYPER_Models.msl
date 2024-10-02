@@ -48,6 +48,7 @@
     <EntitySetMapping Name="NAPTIENs">
       <EntityTypeMapping TypeName="CYPER_DBModel.NAPTIEN">
         <MappingFragment StoreEntitySet="NAPTIEN">
+          <ScalarProperty Name="NgayNapTien" ColumnName="NgayNapTien" />
           <ScalarProperty Name="MaNapTien" ColumnName="MaNapTien" />
           <ScalarProperty Name="MaKhachHang" ColumnName="MaKhachHang" />
           <ScalarProperty Name="SoTien" ColumnName="SoTien" />

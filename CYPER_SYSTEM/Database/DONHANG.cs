@@ -11,13 +11,10 @@ namespace CYPER_SYSTEM.Database
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations.Schema;
-
+    
     public partial class DONHANG
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int MaDonHang { get; set; }
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Nullable<int> MaDichVu { get; set; }
         public Nullable<System.DateTime> NgayDat { get; set; }
         public Nullable<int> SoLuong { get; set; }

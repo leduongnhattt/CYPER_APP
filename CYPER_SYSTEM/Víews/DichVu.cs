@@ -9,7 +9,6 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.VisualBasic;
 using System.Windows.Forms;
 using CYPER_SYSTEM.Session;
 
@@ -17,6 +16,8 @@ namespace CYPER_SYSTEM.Víews
 {
     public partial class DichVu : Form
     {
+        private Dictionary<int, Image> images = new Dictionary<int, Image>();
+
         public DichVu()
         {
             InitializeComponent();
@@ -31,10 +32,12 @@ namespace CYPER_SYSTEM.Víews
                 var services = context.DICHVUs.ToList();
                 if (dataGridViewmMenu.Columns["HinhAnhImage"] == null)
                 {
-                    DataGridViewImageColumn imageColumn = new DataGridViewImageColumn();
-                    imageColumn.Name = "HinhAnhImage";
-                    imageColumn.HeaderText = "Hình Ảnh";
-                    imageColumn.ImageLayout = DataGridViewImageCellLayout.Zoom;
+                    DataGridViewImageColumn imageColumn = new DataGridViewImageColumn
+                    {
+                        Name = "HinhAnhImage",
+                        HeaderText = "Hình Ảnh",
+                        ImageLayout = DataGridViewImageCellLayout.Zoom
+                    };
                     dataGridViewmMenu.Columns.Add(imageColumn);
                 }
 
@@ -49,36 +52,39 @@ namespace CYPER_SYSTEM.Víews
                                 byte[] imageData = webClient.DownloadData(service.HinhAnh);
                                 using (var stream = new MemoryStream(imageData))
                                 {
-                                    service.HinhAnhImage = Image.FromStream(stream);
+                                    // Lưu hình ảnh vào Dictionary
+                                    images[service.MaDichVu] = Image.FromStream(stream);
                                 }
                             }
                         }
                         catch (Exception ex)
                         {
-                            MessageBox.Show($"Error loading image: {ex.Message}");
-                            service.HinhAnhImage = null;
+                            MessageBox.Show($"Lỗi tải hình ảnh: {ex.Message}");
+                            images[service.MaDichVu] = null; // Hoặc xử lý khác nếu cần
                         }
                     }
                     else
                     {
-                        service.HinhAnhImage = null;
+                        images[service.MaDichVu] = null; // Không có hình ảnh
                     }
                 }
+
                 dataGridViewmMenu.DataSource = services;
 
                 foreach (DataGridViewRow row in dataGridViewmMenu.Rows)
                 {
                     var service = (DICHVU)row.DataBoundItem;
-                    if (service.HinhAnhImage != null)
+                    // Truy cập hình ảnh từ Dictionary
+                    if (images.TryGetValue(service.MaDichVu, out Image image))
                     {
-                        row.Cells["HinhAnhImage"].Value = service.HinhAnhImage;
-                        row.Height = 100;  
-                        dataGridViewmMenu.Columns["HinhAnhImage"].Width = 500;
+                        row.Cells["HinhAnhImage"].Value = image;
+                        row.Height = 100;
                     }
                 }
+
+                dataGridViewmMenu.Columns["HinhAnhImage"].Width = 500;
             }
         }
-
 
         private void dataGridViewmMenu_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -106,19 +112,19 @@ namespace CYPER_SYSTEM.Víews
             }
         }
 
-
         private void dataGridViewmMenu_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
             if (dataGridViewmMenu.Columns[e.ColumnIndex].Name == "HinhAnhImage")
             {
                 var service = (DICHVU)dataGridViewmMenu.Rows[e.RowIndex].DataBoundItem;
-                if (service.HinhAnhImage != null)
+                if (images.TryGetValue(service.MaDichVu, out Image image))
                 {
-                    e.Value = service.HinhAnhImage;
+                    e.Value = image;
                     e.FormattingApplied = true;
                 }
             }
         }
+
         private void SaveOrder(int soLuong, double donGia, int maDichVu)
         {
             try
@@ -132,7 +138,7 @@ namespace CYPER_SYSTEM.Víews
                         SoLuong = soLuong,
                         DonGia = (decimal)donGia,
                         ThanhTien = (decimal)(donGia * soLuong),
-                        MaKhachHang = GetLoggedCustomerId() 
+                        MaKhachHang = GetLoggedCustomerId()
                     };
 
                     context.DONHANGs.Add(order);
@@ -144,11 +150,12 @@ namespace CYPER_SYSTEM.Víews
                 MessageBox.Show($"Lỗi lưu đơn hàng: {ex.Message}");
             }
         }
+
         private int GetLoggedCustomerId()
         {
             if (UserSession.CurrentUserId.HasValue)
             {
-                return UserSession.CurrentUserId.Value; 
+                return UserSession.CurrentUserId.Value;
             }
             else
             {
@@ -156,13 +163,10 @@ namespace CYPER_SYSTEM.Víews
 
                 Login loginForm = new Login();
                 loginForm.Show();
-                this.Hide(); 
+                this.Hide();
 
-                return 0; 
+                return 0;
             }
         }
-
-
-
     }
 }

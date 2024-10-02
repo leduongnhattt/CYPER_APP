@@ -48,6 +48,7 @@
     <Property Name="MaKhachHang" Type="int" />
     <Property Name="SoTien" Type="decimal" Precision="18" Scale="2" />
     <Property Name="MaNhanVien" Type="int" />
+    <Property Name="NgayNapTien" Type="datetime" />
   </EntityType>
   <EntityType Name="NHANVIEN">
     <Key>

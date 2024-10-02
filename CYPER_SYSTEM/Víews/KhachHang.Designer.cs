@@ -178,7 +178,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
+            dataGridView1.CellContentClick += DataGridView1_CellContentClick;
         }
 
         #endregion

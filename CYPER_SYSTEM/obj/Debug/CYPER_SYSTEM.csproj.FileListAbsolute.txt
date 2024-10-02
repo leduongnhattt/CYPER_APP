@@ -90,7 +90,6 @@ D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\Microsoft.Bcl.TimeProvider.xml
 D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Víews.Home.resources
 D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Víews.DichVu.resources
 D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Víews.QuanityForm.resources
-D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Víews.TongQuan.resources
 D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Víews.KhachHang.resources
 D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\Bunifu.Licensing.dll
 D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\Bunifu.UI.WinForms.dll
@@ -103,3 +102,18 @@ D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\RestSharp.xml
 D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\System.CodeDom.xml
 D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Víews.EditKhachHang.resources
 D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Víews.AddKhachHang.resources
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Víews.NapTien.resources
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Views.ThanhToan.resources
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Víews.PhanHoi.resources
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\GrapeCity.DataVisualization.Chart.dll
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\LiveCharts.dll
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\LiveCharts.WinForms.dll
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\LiveCharts.Wpf.dll
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\LiveCharts.pdb
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\LiveCharts.xml
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\LiveCharts.WinForms.pdb
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\LiveCharts.WinForms.xml
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\LiveCharts.Wpf.pdb
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\LiveCharts.Wpf.xml
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\bin\Debug\zh\GrapeCity.DataVisualization.Chart.resources.dll
+D:\ASP_Net\CYPER_SYSTEM\CYPER_SYSTEM\obj\Debug\CYPER_SYSTEM.Views.TongQuan.resources

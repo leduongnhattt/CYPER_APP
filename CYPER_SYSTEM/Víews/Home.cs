@@ -9,6 +9,7 @@ using FontAwesome.Sharp;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CYPER_SYSTEM.Database;
+using CYPER_SYSTEM.Views;
 
 namespace CYPER_SYSTEM.Víews
 {
@@ -19,6 +20,8 @@ namespace CYPER_SYSTEM.Víews
         KhachHang khachHang;
         TongQuan tongQuan;
         DichVu DichVu;
+        NapTien NapTien;
+        PhanHoi PhanHoi;
         public Home()
         {
             InitializeComponent();
@@ -150,8 +153,23 @@ namespace CYPER_SYSTEM.Víews
 
         private void btnNaptien_Click(object sender, EventArgs e)
         {
-            new NapTien().Show();
-            this.Hide();
+            if (NapTien == null)
+            {
+                NapTien = new NapTien();
+                NapTien.FormClosed += NapTien_FormClosed;
+                NapTien.MdiParent = this;
+                NapTien.Show();
+                NapTien.Dock = DockStyle.Fill;
+            }
+             else
+            {
+                NapTien?.Activate();
+            }
+        }
+
+        private void NapTien_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            NapTien = null;
         }
 
         private void Home_Load(object sender, EventArgs e)
@@ -177,6 +195,28 @@ namespace CYPER_SYSTEM.Víews
         private void KhachHang_FormClosed(object sender, FormClosedEventArgs ags)
         {
             khachHang = null;
+        }
+
+        private void btnPhanhoi_Click(object sender, EventArgs e)
+        {
+
+            if (PhanHoi == null)
+            {
+                PhanHoi = new PhanHoi();
+                PhanHoi.FormClosed += PhanHoi_FormClosed;
+                PhanHoi.MdiParent = this;
+                PhanHoi.Show();
+                PhanHoi.Dock = DockStyle.Fill;
+            }
+            else
+            {
+                PhanHoi.Activate();
+            }
+        }
+
+        private void PhanHoi_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            PhanHoi = null;
         }
     }
 }

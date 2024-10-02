@@ -11,8 +11,7 @@ namespace CYPER_SYSTEM.Database
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations.Schema;
-
+    
     public partial class LOAIDICHVU
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -20,7 +19,7 @@ namespace CYPER_SYSTEM.Database
         {
             this.DICHVUs = new HashSet<DICHVU>();
         }
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    
         public int MALOAI { get; set; }
         public string TenLoai { get; set; }
     

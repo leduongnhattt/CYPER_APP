@@ -11,8 +11,7 @@ namespace CYPER_SYSTEM.Database
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations.Schema;
-
+    
     public partial class PHANQUYEN
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -20,8 +19,7 @@ namespace CYPER_SYSTEM.Database
         {
             this.NHANVIENs = new HashSet<NHANVIEN>();
         }
-
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    
         public int MaPhanQuyen { get; set; }
         public string TenPhanQuyen { get; set; }
     

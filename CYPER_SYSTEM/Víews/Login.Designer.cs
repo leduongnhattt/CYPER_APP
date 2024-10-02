@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.txtDangnhap = new System.Windows.Forms.TextBox();
@@ -43,6 +44,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel1.Location = new System.Drawing.Point(1, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(272, 619);
@@ -58,30 +61,30 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Đăng nhập";
             // 
-            // textBox1
+            // txtDangnhap
             // 
             this.txtDangnhap.ForeColor = System.Drawing.Color.Gray;
             this.txtDangnhap.Location = new System.Drawing.Point(462, 148);
-            this.txtDangnhap.Name = "textBox1";
+            this.txtDangnhap.Name = "txtDangnhap";
             this.txtDangnhap.Size = new System.Drawing.Size(280, 22);
             this.txtDangnhap.TabIndex = 2;
             this.txtDangnhap.Text = "Tên đăng nhập";
             // 
-            // textBox2
+            // txtMatkhau
             // 
             this.txtMatkhau.ForeColor = System.Drawing.Color.Gray;
             this.txtMatkhau.Location = new System.Drawing.Point(462, 248);
-            this.txtMatkhau.Name = "textBox2";
+            this.txtMatkhau.Name = "txtMatkhau";
             this.txtMatkhau.Size = new System.Drawing.Size(280, 22);
             this.txtMatkhau.TabIndex = 3;
             this.txtMatkhau.Text = "Mật khẩu";
             // 
-            // button1
+            // btnDangnhap
             // 
             this.btnDangnhap.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnDangnhap.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnDangnhap.Location = new System.Drawing.Point(514, 320);
-            this.btnDangnhap.Name = "button1";
+            this.btnDangnhap.Name = "btnDangnhap";
             this.btnDangnhap.Size = new System.Drawing.Size(149, 42);
             this.btnDangnhap.TabIndex = 4;
             this.btnDangnhap.Text = "Đăng nhập";

@@ -54,7 +54,7 @@ namespace CYPER_SYSTEM.Víews
         }
 
 
-        private void DataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        private void DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
             {

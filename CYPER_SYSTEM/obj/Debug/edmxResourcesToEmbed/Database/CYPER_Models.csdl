@@ -58,6 +58,7 @@
     <Property Name="MaNhanVien" Type="Int32" />
     <NavigationProperty Name="KHACHHANG" Relationship="Self.FK__NAPTIEN__MaKhach__52593CB8" FromRole="NAPTIEN" ToRole="KHACHHANG" />
     <NavigationProperty Name="NHANVIEN" Relationship="Self.FK__NAPTIEN__MaNhanV__534D60F1" FromRole="NAPTIEN" ToRole="NHANVIEN" />
+    <Property Name="NgayNapTien" Type="DateTime" Precision="3" />
   </EntityType>
   <EntityType Name="NHANVIEN">
     <Key>

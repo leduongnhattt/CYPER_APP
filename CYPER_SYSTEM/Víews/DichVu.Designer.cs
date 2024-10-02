@@ -108,7 +108,7 @@ namespace CYPER_SYSTEM.Víews
             this.Controls.Add(this.dataGridViewmMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DichVu";
-            this.Text = "DichVu";
+            this.Text = " ";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewmMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dICHVUBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cYPER_DBDataSet)).EndInit();

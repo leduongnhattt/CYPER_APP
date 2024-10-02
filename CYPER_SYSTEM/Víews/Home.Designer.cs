@@ -241,6 +241,7 @@
             this.btnPhanhoi.TabIndex = 2;
             this.btnPhanhoi.Text = "Phản hồi";
             this.btnPhanhoi.UseVisualStyleBackColor = false;
+            this.btnPhanhoi.Click += new System.EventHandler(this.btnPhanhoi_Click);
             // 
             // panel12
             // 

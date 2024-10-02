@@ -10,7 +10,7 @@ namespace CYPER_SYSTEM.Validation
 {
     public static class ValidationHelper
     {
-        public static bool ValidateInput(string tenDangnhap, string sdt, string matKhau, string xacNhanMatKhau)
+        public static bool ValidateInput(string tenDangnhap, string sdt, string matKhau = null, string xacNhanMatKhau = null)
         {
             if (string.IsNullOrEmpty(tenDangnhap) || tenDangnhap == "Tên đăng nhập")
             {

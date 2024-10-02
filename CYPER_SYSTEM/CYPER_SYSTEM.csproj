@@ -57,6 +57,18 @@
     <Reference Include="FontAwesome.Sharp, Version=6.6.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.6.6.0\lib\net472\FontAwesome.Sharp.dll</HintPath>
     </Reference>
+    <Reference Include="GrapeCity.DataVisualization.Chart, Version=0.4.136.0, Culture=neutral, PublicKeyToken=8dbeb54e07a9de91, processorArchitecture=MSIL">
+      <HintPath>..\packages\GrapeCity.DataVisualization.Chart.0.4.136\lib\net461\GrapeCity.DataVisualization.Chart.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
@@ -176,6 +188,7 @@
       <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
     </Reference>
     <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -187,6 +200,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CYPER_DBDataSet.Designer.cs">
@@ -276,6 +290,12 @@
     <Compile Include="Víews\NapTien.Designer.cs">
       <DependentUpon>NapTien.cs</DependentUpon>
     </Compile>
+    <Compile Include="Víews\PhanHoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Víews\PhanHoi.Designer.cs">
+      <DependentUpon>PhanHoi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Víews\PlaceHolder.cs" />
     <Compile Include="Víews\QuanityForm.cs">
       <SubType>Form</SubType>
@@ -289,12 +309,19 @@
     <Compile Include="Víews\Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <Compile Include="Víews\ThanhToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Víews\ThanhToan.Designer.cs">
+      <DependentUpon>ThanhToan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Víews\TongQuan.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Víews\TongQuan.Designer.cs">
       <DependentUpon>TongQuan.cs</DependentUpon>
     </Compile>
+    <Content Include="Images\qr.jpg" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -322,11 +349,20 @@
     <EmbeddedResource Include="Víews\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Víews\NapTien.resx">
+      <DependentUpon>NapTien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Víews\PhanHoi.resx">
+      <DependentUpon>PhanHoi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Víews\QuanityForm.resx">
       <DependentUpon>QuanityForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Víews\Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Víews\ThanhToan.resx">
+      <DependentUpon>ThanhToan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Víews\TongQuan.resx">
       <DependentUpon>TongQuan.cs</DependentUpon>

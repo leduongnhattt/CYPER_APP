@@ -1,4 +1,5 @@
 ﻿using CYPER_SYSTEM.Víews;
+using CYPER_SYSTEM.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace CYPER_SYSTEM
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Home());
+            Application.Run(new Login());
         }
     }
 }

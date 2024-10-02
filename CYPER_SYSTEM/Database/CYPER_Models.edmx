@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="CYPER_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="CYPER_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="DICHVU">
           <Key>
             <PropertyRef Name="MaDichVu" />
@@ -53,6 +53,7 @@
           <Property Name="MaKhachHang" Type="int" />
           <Property Name="SoTien" Type="decimal" Precision="18" Scale="2" />
           <Property Name="MaNhanVien" Type="int" />
+          <Property Name="NgayNapTien" Type="datetime" />
         </EntityType>
         <EntityType Name="NHANVIEN">
           <Key>
@@ -194,8 +195,7 @@
             <End Role="NHANVIEN" EntitySet="NHANVIEN" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="CYPER_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -257,6 +257,7 @@
           <Property Name="MaNhanVien" Type="Int32" />
           <NavigationProperty Name="KHACHHANG" Relationship="Self.FK__NAPTIEN__MaKhach__52593CB8" FromRole="NAPTIEN" ToRole="KHACHHANG" />
           <NavigationProperty Name="NHANVIEN" Relationship="Self.FK__NAPTIEN__MaNhanV__534D60F1" FromRole="NAPTIEN" ToRole="NHANVIEN" />
+          <Property Name="NgayNapTien" Type="DateTime" Precision="3" />
         </EntityType>
         <EntityType Name="NHANVIEN">
           <Key>
@@ -455,6 +456,7 @@
           <EntitySetMapping Name="NAPTIENs">
             <EntityTypeMapping TypeName="CYPER_DBModel.NAPTIEN">
               <MappingFragment StoreEntitySet="NAPTIEN">
+                <ScalarProperty Name="NgayNapTien" ColumnName="NgayNapTien" />
                 <ScalarProperty Name="MaNapTien" ColumnName="MaNapTien" />
                 <ScalarProperty Name="MaKhachHang" ColumnName="MaKhachHang" />
                 <ScalarProperty Name="SoTien" ColumnName="SoTien" />

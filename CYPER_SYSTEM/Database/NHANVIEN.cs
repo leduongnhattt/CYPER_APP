@@ -11,8 +11,7 @@ namespace CYPER_SYSTEM.Database
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations.Schema;
-
+    
     public partial class NHANVIEN
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -21,8 +20,7 @@ namespace CYPER_SYSTEM.Database
             this.DONHANGs = new HashSet<DONHANG>();
             this.NAPTIENs = new HashSet<NAPTIEN>();
         }
-
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    
         public int MaNhanVien { get; set; }
         public string TenNhanVien { get; set; }
         public string CanCuocCD { get; set; }
